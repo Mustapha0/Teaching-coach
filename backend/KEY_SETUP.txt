@@ -1,0 +1,17 @@
+TEACHING COACH AI — WHERE TO PUT YOUR GROQ API KEY
+
+IMPORTANT: The key shared in chat should be revoked. Create a NEW key. Do not put a real key in this ZIP or in GitHub.
+
+IF YOU DEPLOY THE BACKEND TO RENDER (recommended for your phone):
+1. Open your Render dashboard and select the Teaching Coach AI backend service.
+2. Open Environment.
+3. Add/edit the variable named GROQ_API_KEY.
+4. Paste your NEW Groq key as its value and save/redeploy.
+5. Keep the key private; do not put it in the Android app's Settings.
+
+IF RUNNING THE BACKEND LOCALLY ON YOUR OWN COMPUTER ONLY:
+1. Copy .env.example to a file named .env in this backend folder.
+2. Replace REPLACE_WITH_YOUR_NEW_GROQ_API_KEY with your new key.
+3. Never upload the .env file to GitHub.
+
+The Android app's Settings screen needs the BACKEND URL only, not the Groq API key.
